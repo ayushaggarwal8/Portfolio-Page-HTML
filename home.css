@@ -18,7 +18,7 @@
   background-color: var(--dl-color-gray-white);
 }
 .home-navbar {
-  width: 100%;
+  width: 1604px;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: center;
@@ -73,7 +73,7 @@
   flex-direction: column;
   background-color: #fff;
 }
-.home-container01 {
+.home-container1 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -123,7 +123,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-container02 {
+.home-container2 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -167,7 +167,8 @@
   justify-content: flex-start;
 }
 .home-image {
-  width: 40%;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 .home-features {
@@ -363,7 +364,7 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-900);
 }
-.home-container03 {
+.home-container3 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -380,7 +381,7 @@
 .home-text07 {
   text-align: left;
 }
-.home-container04 {
+.home-container4 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -397,7 +398,7 @@
 .home-text08 {
   text-align: left;
 }
-.home-container05 {
+.home-container5 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -425,7 +426,7 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-900);
 }
-.home-container06 {
+.home-container6 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -442,7 +443,7 @@
 .home-text10 {
   text-align: left;
 }
-.home-container07 {
+.home-container7 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -459,7 +460,7 @@
 .home-text14 {
   text-align: left;
 }
-.home-container08 {
+.home-container8 {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -477,59 +478,6 @@
   text-align: left;
 }
 .home-button {
-  color: var(--dl-color-gray-white);
-  text-align: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-tenunits);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-black);
-}
-.home-subscribe {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.home-image1 {
-  width: 50%;
-  object-fit: cover;
-}
-.home-container09 {
-  width: 50%;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-fiveunits);
-  padding-left: var(--dl-space-space-tenunits);
-  padding-right: var(--dl-space-space-tenunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
-  justify-content: center;
-}
-.home-heading-container2 {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-fiveunits);
-  flex-direction: column;
-}
-.home-text16 {
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-textinput {
-  width: 50%;
-  padding-top: var(--dl-space-space-doubleunit);
-  border-color: var(--dl-color-gray-900);
-  border-width: 1px;
-  padding-left: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-radius8);
-  margin-bottom: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-tripleunit);
-  padding-bottom: var(--dl-space-space-doubleunit);
-}
-.home-button1 {
   color: var(--dl-color-gray-white);
   text-align: center;
   padding-top: var(--dl-space-space-doubleunit);
@@ -605,7 +553,7 @@
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
-  .home-container02 {
+  .home-container2 {
     width: auto;
   }
   .home-hero {
@@ -627,16 +575,6 @@
     width: 100%;
   }
   .home-about-11 {
-    width: 100%;
-  }
-  .home-image1 {
-    width: 100%;
-  }
-  .home-container09 {
-    padding-left: var(--dl-space-space-tripleunit);
-    padding-right: var(--dl-space-space-tripleunit);
-  }
-  .home-button1 {
     width: 100%;
   }
 }
