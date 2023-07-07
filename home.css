@@ -129,7 +129,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-image: radial-gradient(circle at center, rgb(189, 195, 199) 0.00%,rgb(45, 96, 147) 100.00%);
+  background-image: radial-gradient(circle at right, rgb(189, 195, 199) 0.00%,rgb(136, 185, 234) 73.00%);
 }
 .home-hero {
   width: var(--dl-size-size-maxcontent);
