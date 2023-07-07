@@ -175,11 +175,6 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-image {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
 .home-features {
   width: 100%;
   display: flex;
@@ -536,16 +531,30 @@
   }
 }
 @media(max-width: 479px) {
+  .home-navbar-container {
+    width: auto;
+  }
+  .home-navbar {
+    width: auto;
+  }
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
   .home-container2 {
     width: auto;
+    height: auto;
   }
   .home-hero {
     width: auto;
   }
   .home-hero-text-container {
+    width: auto;
+  }
+  .home-heading2 {
+    width: auto;
+    height: auto;
+  }
+  .home-text {
     width: auto;
   }
   .home-card {
