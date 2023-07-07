@@ -41,9 +41,14 @@
 }
 .about-link1 {
   margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
 }
 .about-link2 {
   margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.about-link3 {
+  text-decoration: none;
 }
 .about-burger-menu {
   display: none;

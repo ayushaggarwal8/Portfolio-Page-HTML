@@ -49,7 +49,50 @@
     <div>
       <link href="./courses.css" rel="stylesheet" />
 
-      <div class="courses-container"></div>
+      <div class="courses-container">
+        <div data-role="Header" class="courses-navbar-container">
+          <div class="courses-navbar">
+            <span class="Card-Heading courses-heading">Logo</span>
+            <div class="courses-links-container">
+              <a href="about.html" class="courses-link Navbar-Link">About</a>
+              <a href="why-do-contests.html" class="courses-link1 Navbar-Link">
+                Why do Contests
+              </a>
+              <a href="courses.html" class="courses-link2 Navbar-Link">
+                Courses
+              </a>
+              <a href="contact.html" class="courses-link3 Navbar-Link">
+                Contact
+              </a>
+            </div>
+            <div data-role="BurgerMenu" class="courses-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="courses-icon">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="courses-mobile-menu">
+              <div class="courses-container1">
+                <span class="Card-Heading courses-heading1">Logo</span>
+                <div data-role="CloseMobileMenu" class="courses-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="courses-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="courses-links-container1">
+                <span class="courses-link4 Navbar-Link">About</span>
+                <span class="courses-link5 Navbar-Link">Experience</span>
+                <span class="courses-link6 Navbar-Link">Portofolio</span>
+                <span class="Navbar-Link">Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   </body>
