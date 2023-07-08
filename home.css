@@ -441,7 +441,7 @@
     align-items: center;
   }
   .home-navbar {
-    width: 479px;
+    width: 100%;
     padding: var(--dl-space-space-tripleunit);
     position: relative;
     padding-top: 0px;
@@ -514,7 +514,7 @@
     width: 450px;
   }
   .home-heading2 {
-    width: 479px;
+    width: auto;
     height: auto;
     font-size: 60px;
     align-self: center;
@@ -522,7 +522,7 @@
     letter-spacing: 0;
   }
   .home-text2 {
-    width: 450px;
+    width: auto;
     align-self: center;
     text-align: center;
   }
