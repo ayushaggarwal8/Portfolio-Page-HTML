@@ -195,7 +195,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text01 {
+.home-text1 {
   font-size: 48px;
   font-style: normal;
   font-family: Overpass;
@@ -247,7 +247,7 @@
 .home-heading3 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text02 {
+.home-text2 {
   text-align: center;
 }
 .home-card1 {
@@ -284,7 +284,7 @@
 .home-heading4 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text03 {
+.home-text3 {
   text-align: center;
 }
 .home-card2 {
@@ -321,7 +321,7 @@
 .home-heading5 {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text04 {
+.home-text4 {
   text-align: center;
 }
 .home-about {
@@ -361,140 +361,9 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-about-1 {
-  width: 30%;
-  height: 263px;
-  display: flex;
-  padding: var(--dl-space-space-fourunits);
-  align-self: stretch;
-  align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--dl-color-gray-900);
-}
-.home-container3 {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: center;
-}
-.home-icon10 {
-  width: 24px;
-  height: 24px;
-  min-width: 24px;
-  min-height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.home-text06 {
-  text-align: left;
-}
-.home-container4 {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: center;
-}
-.home-icon12 {
-  width: 24px;
-  height: 24px;
-  min-width: 24px;
-  min-height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.home-text07 {
-  text-align: left;
-}
-.home-container5 {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: center;
-}
-.home-icon14 {
-  width: 24px;
-  height: 24px;
-  min-width: 24px;
-  min-height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.home-text08 {
-  text-align: left;
-}
-.home-about-11 {
-  width: 30%;
-  display: flex;
-  padding: var(--dl-space-space-fourunits);
-  align-self: stretch;
-  align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--dl-color-gray-900);
-}
-.home-container6 {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: center;
-}
-.home-icon16 {
-  width: 24px;
-  height: 24px;
-  min-width: 24px;
-  min-height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.home-text09 {
-  text-align: left;
-}
-.home-container7 {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: center;
-}
-.home-icon18 {
-  width: 24px;
-  height: 24px;
-  min-width: 24px;
-  min-height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.home-text13 {
-  text-align: left;
-}
-.home-container8 {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: center;
-}
-.home-icon20 {
-  width: 24px;
-  height: 24px;
-  min-width: 24px;
-  min-height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.home-text14 {
-  text-align: left;
-}
-.home-button {
-  color: var(--dl-color-gray-white);
-  text-align: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-tenunits);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-black);
+.home-image {
+  width: 200px;
+  object-fit: cover;
 }
 .home-section-separator2 {
   width: 100%;
@@ -512,6 +381,11 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-gray-white);
+}
+@media(max-width: 1600px) {
+  .home-text6 {
+    font-size: 40px;
+  }
 }
 @media(max-width: 1200px) {
   .home-hero {
@@ -554,12 +428,6 @@
     width: 100%;
   }
   .home-card2 {
-    width: 100%;
-  }
-  .home-about-1 {
-    width: 100%;
-  }
-  .home-about-11 {
     width: 100%;
   }
 }
