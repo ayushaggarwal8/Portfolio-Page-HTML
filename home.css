@@ -536,6 +536,8 @@
   }
   .home-navbar {
     width: auto;
+    padding: var(--dl-space-space-tripleunit);
+    padding-top: var(--dl-space-space-halfunit);
   }
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
@@ -553,6 +555,7 @@
   .home-heading2 {
     width: auto;
     height: auto;
+    font-size: 60px;
   }
   .home-text {
     width: auto;
