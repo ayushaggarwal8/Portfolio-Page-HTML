@@ -389,8 +389,12 @@
     height: auto;
     opacity: 0.5;
   }
+  .home-image {
+    width: 40%;
+  }
   .home-text6 {
     font-size: 40px;
+    padding-left: 150px;
   }
 }
 @media(max-width: 1200px) {
