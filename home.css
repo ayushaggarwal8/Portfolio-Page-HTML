@@ -233,8 +233,9 @@
   flex-direction: column;
 }
 .home-icon04 {
-  width: 24px;
-  height: 24px;
+  width: 70%;
+  height: auto;
+  opacity: 0.5;
 }
 .home-content-container {
   display: flex;
@@ -267,8 +268,9 @@
   flex-direction: column;
 }
 .home-icon06 {
-  width: 24px;
-  height: 24px;
+  width: 60%;
+  height: auto;
+  opacity: 0.5;
 }
 .home-content-container1 {
   display: flex;
@@ -301,8 +303,9 @@
   flex-direction: column;
 }
 .home-icon08 {
-  width: 24px;
-  height: 24px;
+  width: 70%;
+  height: auto;
+  opacity: 0.5;
 }
 .home-content-container2 {
   display: flex;
@@ -353,8 +356,12 @@
   justify-content: center;
 }
 .home-image {
-  width: 200px;
+  width: 40%;
   object-fit: cover;
+}
+.home-text6 {
+  font-size: 50px;
+  padding-left: 150px;
 }
 .home-section-separator2 {
   width: 100%;
