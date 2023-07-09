@@ -189,7 +189,7 @@
   margin-bottom: var(--dl-space-space-tripleunit);
   letter-spacing: 5px;
 }
-.home-text2 {
+.home-text04 {
   color: var(--dl-color-gray-black);
   font-size: 30px;
   font-style: normal;
@@ -221,7 +221,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text3 {
+.home-text05 {
   font-size: 48px;
   font-style: normal;
   font-family: Overpass;
@@ -278,7 +278,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text4 {
+.home-text06 {
   font-size: 25px;
   font-style: normal;
   text-align: center;
@@ -330,7 +330,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text5 {
+.home-text07 {
   width: 400px;
   font-size: 24px;
   font-style: normal;
@@ -381,7 +381,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text6 {
+.home-text08 {
   font-size: 24px;
   font-style: normal;
   text-align: center;
@@ -434,7 +434,7 @@
   object-fit: cover;
   padding-right: var(--dl-space-space-tenunits);
 }
-.home-text8 {
+.home-text10 {
   font-size: 24px;
 }
 .home-section-separator2 {
@@ -494,6 +494,12 @@
     padding-bottom: var(--dl-space-space-tripleunit);
   }
   .home-heading {
+    font-size: 18px;
+    align-self: center;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .home-text {
     font-size: 18px;
     align-self: center;
     padding-top: var(--dl-space-space-doubleunit);
@@ -565,12 +571,12 @@
     text-align: center;
     letter-spacing: 0;
   }
-  .home-text2 {
+  .home-text04 {
     width: auto;
     align-self: center;
     text-align: center;
   }
-  .home-text3 {
+  .home-text05 {
     align-self: center;
     text-align: center;
   }
@@ -581,7 +587,7 @@
   .home-card {
     width: 100%;
   }
-  .home-text4 {
+  .home-text06 {
     width: 400px;
   }
   .home-card1 {
@@ -590,14 +596,14 @@
   .home-card2 {
     width: 100%;
   }
-  .home-text6 {
+  .home-text08 {
     width: 400px;
     text-align: center;
   }
   .home-heading-container1 {
     position: relative;
   }
-  .home-text7 {
+  .home-text09 {
     align-self: center;
     text-align: center;
   }
