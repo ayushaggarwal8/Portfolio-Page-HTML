@@ -564,11 +564,12 @@
     width: 450px;
   }
   .home-heading2 {
-    width: auto;
+    width: 400px;
     height: auto;
     font-size: 60px;
     align-self: center;
     text-align: center;
+    margin-right: var(--dl-space-space-tripleunit);
     letter-spacing: 0;
   }
   .home-text04 {
@@ -588,16 +589,19 @@
     width: 100%;
   }
   .home-text06 {
-    width: 400px;
+    width: 380px;
   }
   .home-card1 {
     width: 100%;
+  }
+  .home-heading4 {
+    width: 380px;
   }
   .home-card2 {
     width: 100%;
   }
   .home-text08 {
-    width: 400px;
+    width: 380px;
     text-align: center;
   }
   .home-heading-container1 {
@@ -614,5 +618,8 @@
     align-self: center;
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .home-text10 {
+    text-align: center;
   }
 }
