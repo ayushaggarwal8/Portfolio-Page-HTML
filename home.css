@@ -232,7 +232,7 @@
   text-decoration: none;
 }
 .home-cards-container {
-  width: 100%;
+  width: var(--dl-size-size-maxcontent);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -290,7 +290,7 @@
   text-decoration: none;
 }
 .home-card1 {
-  width: 30%;
+  width: 40%;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
@@ -319,6 +319,7 @@
   flex-direction: column;
 }
 .home-heading4 {
+  width: auto;
   font-size: 36px;
   font-style: normal;
   text-align: center;
@@ -330,6 +331,7 @@
   text-decoration: none;
 }
 .home-text5 {
+  width: 400px;
   font-size: 24px;
   font-style: normal;
   text-align: center;
