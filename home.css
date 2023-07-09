@@ -612,5 +612,7 @@
   }
   .home-image {
     align-self: center;
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-fiveunits);
   }
 }
