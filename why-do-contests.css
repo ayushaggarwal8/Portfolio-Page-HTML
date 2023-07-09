@@ -152,6 +152,12 @@
     padding-top: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-unit);
   }
+  .why-do-contests-text {
+    font-size: 18px;
+    align-self: center;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-unit);
+  }
   .why-do-contests-links-container {
     width: auto;
     height: auto;

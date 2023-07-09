@@ -432,10 +432,10 @@
 .home-image {
   width: 30%;
   object-fit: cover;
+  padding-right: var(--dl-space-space-tenunits);
 }
 .home-text8 {
-  font-size: 40px;
-  padding-left: 150px;
+  font-size: 24px;
 }
 .home-section-separator2 {
   width: 100%;
@@ -472,10 +472,6 @@
   }
   .home-image {
     width: 40%;
-  }
-  .home-text8 {
-    font-size: 40px;
-    padding-left: 150px;
   }
 }
 @media(max-width: 1200px) {
@@ -610,11 +606,5 @@
   }
   .home-image {
     align-self: center;
-  }
-  .home-text8 {
-    font-size: 25px;
-    align-self: center;
-    padding-top: var(--dl-space-space-fiveunits);
-    padding-left: 0px;
   }
 }
