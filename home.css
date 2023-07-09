@@ -185,7 +185,7 @@
   height: 86px;
   font-size: 60px;
   font-style: normal;
-  font-family: Cairo;
+  font-family: Noto Sans;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-tripleunit);
   letter-spacing: 5px;
@@ -492,16 +492,11 @@
 @media(max-width: 479px) {
   .home-navbar-container {
     width: auto;
-    align-items: center;
   }
   .home-navbar {
     width: 100%;
     padding: var(--dl-space-space-tripleunit);
     position: relative;
-    padding-top: 0px;
-    padding-left: var(--dl-space-space-tripleunit);
-    padding-right: var(--dl-space-space-tripleunit);
-    padding-bottom: var(--dl-space-space-tripleunit);
   }
   .home-heading {
     font-size: 18px;
