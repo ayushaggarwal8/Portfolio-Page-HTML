@@ -485,7 +485,7 @@
 }
 @media(max-width: 479px) {
   .home-navbar-container {
-    width: 479px;
+    width: auto;
     align-items: center;
   }
   .home-navbar {
@@ -578,14 +578,25 @@
     align-self: center;
     text-align: center;
   }
+  .home-cards-container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
   .home-card {
     width: 100%;
+  }
+  .home-text4 {
+    width: auto;
   }
   .home-card1 {
     width: 100%;
   }
   .home-card2 {
     width: 100%;
+  }
+  .home-text6 {
+    width: auto;
+    text-align: center;
   }
   .home-heading-container1 {
     position: relative;
