@@ -459,6 +459,9 @@
 .home-text15 {
   font-size: 20px;
 }
+.home-text16 {
+  font-size: 20px;
+}
 .home-text17 {
   font-size: 20px;
 }
@@ -627,5 +630,29 @@
   }
   .home-text10 {
     text-align: center;
+  }
+  .home-footer-container {
+    height: auto;
+    flex-direction: column;
+  }
+  .home-text15 {
+    width: 150%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .home-text16 {
+    width: 150%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .home-text17 {
+    width: 150%;
+    text-align: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
   }
 }
