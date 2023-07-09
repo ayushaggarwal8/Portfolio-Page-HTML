@@ -269,10 +269,25 @@
   flex-direction: column;
 }
 .home-heading3 {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
   margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
 }
 .home-text4 {
+  font-size: 25px;
+  font-style: normal;
   text-align: center;
+  font-family: Playfair Display;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-decoration: none;
 }
 .home-card1 {
   width: 30%;
@@ -304,10 +319,26 @@
   flex-direction: column;
 }
 .home-heading4 {
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
   margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
 }
 .home-text5 {
+  font-size: 24px;
+  font-style: normal;
   text-align: center;
+  font-family: Playfair Display;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-decoration: none;
 }
 .home-card2 {
   width: 30%;
@@ -339,10 +370,25 @@
   flex-direction: column;
 }
 .home-heading5 {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
   margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
 }
 .home-text6 {
+  font-size: 24px;
+  font-style: normal;
   text-align: center;
+  font-family: Playfair Display;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-decoration: none;
 }
 .home-about {
   width: 100%;
